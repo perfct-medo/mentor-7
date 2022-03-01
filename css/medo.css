@@ -48,9 +48,14 @@ body {
 }
 
 .container {
-    margin: 100px auto;
+    margin: 150px;
 }
 
+@media (max-width:575px) {
+    .container {
+        margin: 100px auto;
+    }
+}
 .container .info {
     display: flex;
     justify-content: space-evenly;
